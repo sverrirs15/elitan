@@ -17,7 +17,7 @@
       </div>
       <div class="downer">
         <p id="countdown"></p>
-
+        <img id="mynd" src="mynd1.jpg"/>
 
 
       </div>
@@ -25,9 +25,16 @@
       <script>
       // Set the date we're counting down to
       var countDownDate = new Date("Sep 23, 2017 18:00:00").getTime();
-
+      var i = 1;
       // Update the count down every 1 second
       var x = setInterval(function() {
+
+        if(i == 10)
+        {
+          i = 1;
+        }
+        document.getElementById("mynd").src="mynd" + i + ".jpg";
+        i += 1;
 
         // Get todays date and time
         var now = new Date().getTime();
