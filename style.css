@@ -21,29 +21,33 @@ html, body {
 	color: white;
 	text-shadow: 1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff,
             -1px 1px 0 #fff, 3px 3px 5px #333;
-	text-align: center;
 	line-height: 100px;
 	background-color:rgba(0,10,100,0.5);
 	padding: 0px 50px 0px 50px;
+	text-align: center;
 
 }
 .upper
 {
 	height: 50%;
 	width: 100%;
-	background-size: 50% 50%;
-	background: url(thecrew.jpg) no-repeat center center;
+	background-color: #3498db;
 	display: flex;
 	align-items: center;
   	justify-content: center;
+	/*background-size: 50% 50%;
+	background: url(thecrew.jpg) no-repeat center center;
+	*/
 }
 .downer
 {
 	height: 50%;
 	width: 100%;
-	background-size: 100%;
-	background-image: url("alcohol.png") no-repeat;
-	display: flex;
-	align-items: center;
-  	justify-content: center;
+	background-color: #3498db;
+	/*display: flex;
+	/*align-items: center;
+  	justify-content: center;*/
+	/*background-size: 100%;
+	background-image: url("alcohol.png");
+	*/
 }
